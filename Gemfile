@@ -19,6 +19,8 @@ gem 'puma', '~> 3.0'
 gem 'active_model_serializers'
 gem 'responders'
 
+gem 'sqlite3'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
