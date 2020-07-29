@@ -19,7 +19,17 @@ gem 'puma', '~> 3.0'
 gem 'active_model_serializers'
 gem 'responders'
 
-gem 'sqlite3'
+
+
+
+
+  gem 'rake'
+  gem 'bootsnap'
+  gem 'sqlite3', '~> 1.3', '< 1.4'
+
+
+
+
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
